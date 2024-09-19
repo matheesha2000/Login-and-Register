@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+.login-container{
+    position: relative;
+    width: 350px;  
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.login-container h1{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container .input-group{
+    margin: 15px 0;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container .input-group label{
+    padding: 10px;
+    color: #333;
+    font-weight: 500;
+    text-align: left;
+    width: 40%;
+}
+
+.login-container .input-group input{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container .submit-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .submit-group button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container .submit-group button:hover{
+    background: #444;
+}
+
+.login-container .social-login{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.login-container .social-login p{
+    color: #333;
+    padding: 0 10px;
+    font-weight: 500;
+}   
+
+.login-container .social-login button{
+    border: none;
+    outline: none;  
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.social-login img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
